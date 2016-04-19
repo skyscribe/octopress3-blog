@@ -50,7 +50,7 @@ module Jekyll
     end
 
     def get_gist_url_for(gist, file)
-      "https://gist.githubusercontent.com/raw/#{gist}/#{file}"
+      "https://gist.github.com/skyscribe/#{gist}/#{file}"
     end
 
     def cache(gist, file, data)
